@@ -204,3 +204,88 @@ With the three quotes.
 We'll be able to type as much we like. 
 """
 
+
+##########################################################################
+print "="*line_width
+print "Start of exercise", exercise_count
+exercise_count+=1
+print "="*line_width
+##########################################################################
+
+print "I'm 5'7\" tall"
+print 'I\'m 5\'7 tall'
+
+tabby_cat = "\tI'm tabbed in"
+persian_cat = "I'm split\non a line"
+backslash_cat="I'm \\ a \\ cat"
+fat_cat = '''
+I'll do a list:
+\t* Cat food
+\t* Fishies
+\t* Catnip\n\t* Grass
+'''
+
+print tabby_cat
+print persian_cat
+print backslash_cat
+print fat_cat
+
+
+##########################################################################
+print "="*line_width
+print "Start of exercise", exercise_count
+exercise_count+=1
+print "="*line_width
+##########################################################################
+
+
+print "How old are you?",
+
+age = raw_input()
+print "How tall are you?",
+height = raw_input()
+print "How much do you weigh?",
+weight = raw_input()
+
+print "So, you're %r old, %r tall and %r heavy."  %(
+age, height, weight)
+
+
+##########################################################################
+print "="*line_width
+print "Start of exercise", exercise_count
+exercise_count+=1
+print "="*line_width
+##########################################################################
+
+
+y=raw_input("Name?")
+
+
+age= raw_input ("How old are you?")
+height = raw_input ("How tall are you?")
+weight = raw_input ("How much do you weigh?")
+
+print "So, you're %r old, %r tall and %r heavy." % (age, height,weight)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
